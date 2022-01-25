@@ -23,14 +23,20 @@ number_of_clones = 10
 mutation_rate = 0.5
 succession = 'elitarna'
 iteration = 0
+elapsed_time = 0
+alg_elapsed_time = 0
+chart_all_iters = []
+chart_this_iter = []
+chart_results = []
+
 
 items: tuple[Item] = tuple()
 items_choices = []
 
-
-
+# GUI
 
 root = tk.Tk()
+
 root.title('Algorithm')
 root.geometry("830x950")
 

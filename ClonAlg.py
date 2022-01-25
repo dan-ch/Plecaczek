@@ -1,5 +1,6 @@
 import itertools
 import random
+import time
 
 from numpy.random import uniform
 
