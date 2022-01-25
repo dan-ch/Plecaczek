@@ -12,6 +12,15 @@ class Choice:
         self.affinity = 0
 
 
+    def __str__(self):
+        return f'''
+         Tablica: {self.binary_array}
+         Weight: {self.weight}
+         Value: {self.totalValue}
+         Affinity: {self.affinity}
+         '''
+
+
 
 
 
